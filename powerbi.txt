@@ -1,0 +1,6 @@
+datasource postgres
+localhost:5432
+
+use new source - sql server database - advanced - sql statement, then sql in ./db/summarise.sql
+
+new source: postgresql server: localhost database db mode DirectQuery advanced options, sql statement select get_results(); database creds user/example set to unencrypted connection then folding error
