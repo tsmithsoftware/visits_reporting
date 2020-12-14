@@ -599,6 +599,7 @@ inner join passes
 end;
 $$ LANGUAGE plpgsql;
 
+select get_results();
 
 
 /**
