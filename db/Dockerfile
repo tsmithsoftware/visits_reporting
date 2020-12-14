@@ -1,2 +1,2 @@
 FROM library/postgres
-COPY init.sql /docker-entrypoint-initdb.d/
+COPY check_update.sql /docker-entrypoint-initdb.d/
